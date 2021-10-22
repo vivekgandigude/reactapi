@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "edge": "^7.10.1",
+    "edge-sql": "^0.1.2",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "msnodesqlv8": "^2.4.0",
+    "mssql": "^7.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.2",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "qs": "^6.10.1",
+    "react-native": "^0.66.0",
+    "react-native-mssql": "^0.1.4",
+    "sequelize": "^6.7.0",
+    "tedious": "^13.1.0"
+  },
+  "type": "module"
+}
